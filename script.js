@@ -108,7 +108,7 @@ btnsNumeros.forEach(botao =>{
 
 btnsOperacao.forEach(botao =>{
     botao.addEventListener('click', ()=>{
-        calculadora.escolhaOperecao(botao.innerText)
+        calculadora.escolhaOperacao(botao.innerText)
         calculadora.atualizaDisplay()
     })
 })
