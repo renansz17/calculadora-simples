@@ -1,4 +1,4 @@
-import { Calculadora } from "./calculadora";
+import { Calculadora } from "./calculadora.js";
 
 const btnsNumeros = document.querySelectorAll('[data-numero]')
 const btnsOperacao = document.querySelectorAll('[data-operacao]')
