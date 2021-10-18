@@ -21,7 +21,7 @@ class Calculadora{
        this.operacaoAtual = this.operacaoAtual.toString() + numero.toString()
     }
     
-    escolhaOperecao(operacao){
+    escolhaOperacao(operacao){
         if(this.operacaoAtual === '')return
         if(this.operacaoAnterior !==''){
             this.compute()
